@@ -1,0 +1,63 @@
+body{
+    font-family: "Pixeloperator", monospace;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(199, 199, 199) 10%, black 90%);
+    
+    background-size: 220px;
+}
+
+h1{
+    text-align: center;
+}
+
+#smapton{
+    margin: 0 auto;
+    display: block;
+}
+
+.content{
+    max-width: 65%;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px solid white;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.video-wraper{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.video{
+    aspect-ratio: 1 / 1;
+    max-width: 30%;
+    border-radius: 20px;
+}
+
+.nick{
+    color: #ff2bce;
+    font-size: larger;
+}
+
+.uruedo{
+    color: #ffed2b;
+    font-size: larger;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+@font-face {
+  font-family: 'PixelOperator';
+  src: url('fonts/pixel_operator_8.ttf') format('truetype');
+}
