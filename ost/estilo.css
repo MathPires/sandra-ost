@@ -2,13 +2,15 @@ body{
     font-family: "Pixeloperator", monospace;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, rgb(199, 199, 199) 10%, black 90%);
-    
-    background-size: 220px;
+    background-image: url("imagens/background.gif");
+    background-size: 250px;
+    min-height: 100vh;
 }
 
 h1{
     text-align: center;
+    font-size: clamp(16px, 5vw, 48px);
+    word-wrap: break-word;
 }
 
 #smapton{
@@ -17,14 +19,36 @@ h1{
 }
 
 .content{
-    max-width: 65%;
+    max-width: 75%;
     background-color: black;
     color: white;
     border-radius: 20px;
     padding: 20px;
     border: 3px solid white;
-    margin: 0 auto;
+    margin: 25px auto;
     text-align: justify;
+}
+
+p{
+    text-indent: 1.5em;
+    line-height: 1.2;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: underline dashed white;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:active{
+    color:#ff2bce;
 }
 
 .video-wraper{
@@ -37,7 +61,7 @@ h1{
 
 .video{
     aspect-ratio: 1 / 1;
-    max-width: 30%;
+    max-width: 35%;
     border-radius: 20px;
 }
 
@@ -51,10 +75,19 @@ h1{
     font-size: larger;
 }
 
+.production{
+    color:#ff9e1e
+}
+
+#id a{
+    font-weight: bold;
+}
 footer{
     color: white;
     text-align: center;
     font-weight: bolder;
+    max-width: 75%;
+    margin: 0 auto;
 }
 
 @font-face {
